@@ -40,16 +40,17 @@ public getValue
 }
 ```
 
-
-
----
-
+// Pay attention to errors in compiler (very helpful with inheritance of gnerics
 
 
 
 
-** You can add limitations on the generic type**
+**You can add limitations on the generic type**
+
+
+
 public class GenericClass<T extends **SomeClass*>
 {
+
 }
-}
+
