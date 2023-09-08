@@ -44,13 +44,17 @@ public getValue
 
 
 
-
+---
 **You can add limitations on the generic type**
-
-
+* this can extend a class or an interface with the extends keyword
 
 public class GenericClass<T extends **SomeClass*>
 {
 
 }
 
+#### Generic Methods
+
+you can have generic methods and classes
+and a generic method and be in a non generic class
+you can also add bounds on the generic method like the class
