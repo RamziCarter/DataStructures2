@@ -36,4 +36,21 @@ public SNode(E data, SNode <T> next)
   this.next = next;
 }
 }
-```   
+```
+
+---
+
+#### Linked List notes
+- the first node is called the head
+- the last node is called the tail
+- to traverse the list you must create a reference and assign it to your first node (usually that is the first node
+- 
+- 
+
+
+Snode <E> current = head;
+while current.next != null)
+{
+ // do something
+ current = current.next;
+}
