@@ -91,3 +91,10 @@ Exceptions (Checked vs Unchecked)
 
 ![exception/Error Overview](387577111_1346550776234802_6994473361776137601_n.jpg)
 
+When using a try catch block it is important to catch exceptions specifically because you can throw multiple exceptions in the catch block.
+
+so, catch (ArrayIndexOutOfBounds e) , catch (ArithmeticException e) , catch (Exception e) is all valid
+general exceptions must be last!
+
+throw new SomeExceptionClass("your message")
+
