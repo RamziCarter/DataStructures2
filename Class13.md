@@ -81,4 +81,11 @@ else
 }
 ```
 
+wuould binary search work for a generic class?
+- yes
+wuould binary search work for a linked list?
+- no because you cannot access the mid index, in a linked list you need to traverse the nodes
+
+---
+Exceptions (Checked vs Unchecked)
 
