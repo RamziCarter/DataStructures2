@@ -89,3 +89,5 @@ wuould binary search work for a linked list?
 ---
 Exceptions (Checked vs Unchecked)
 
+![exception/Error Overview](387577111_1346550776234802_6994473361776137601_n.jpg)
+
