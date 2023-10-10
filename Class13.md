@@ -45,3 +45,40 @@ Worst case is O(log n)
 __for linear search__
 Best case is O(1)
 Worst case is O(n)
+
+
+```Java
+public boolean binarySearch(int [] list, int target, int start, int end)
+{
+// start of the aray is 0
+// end of array is n - 1
+// (end - start) / 2 is mid
+
+if (list.length == 0)
+{
+      return false
+}
+
+if(start > end)
+{
+      return false;
+}
+
+// find half the length, add start so offset is correct
+int mid = ((end - start) / 2) + start;
+if(list [mid] == target
+{
+return mid;
+}
+
+else if(list[mid] < target)
+{
+      return binarySearch(list. target, mid + 1, end)
+}
+else
+{
+      return binarySearch(list. target, start, mid + 1)
+}
+```
+
+
