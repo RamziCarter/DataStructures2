@@ -30,3 +30,18 @@ __Example Below__
 ```
 ---
 
+Binary Search
+- this only works on a sorted array
+- consider that when we search sorted array A of size n for value t. We search from indexwa 0 to n-1.
+- Suppose I jump to an intermediate index x. If
+
+Run time
+- each step of recursion you are dividing the problem by two
+- log (n)
+
+__for binary search__
+Best case is O(1)
+Worst case is O(log n)
+__for linear search__
+Best case is O(1)
+Worst case is O(n)
