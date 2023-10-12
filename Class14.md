@@ -87,3 +87,9 @@ load factor is another example of needing to compromise between speed and memory
 - All of the hashing strucures require objects. You cannot hash an int.
 
 
+In java you are generally going to be looking at a hashmap or a hashtable
+- due to the nature of hashing structures, we are not guarenteed any order when iterating or retrieving a set of kwys/values.
+ - if you want to increase the likelyhood of predictability you can use a LinkedHashMap
+
+ 
+
