@@ -82,3 +82,8 @@ Load factor is defined as: (number of entries in the table)/(size of the table)
 #### Time Vs. Space
 
 load factor is another example of needing to compromise between speed and memory capacity
+- a larger table is likely to guarrentee few collisions and faster access speeds, however may be wasting space
+- smaller table means more collisions by you will be conserving space
+- All of the hashing strucures require objects. You cannot hash an int.
+
+
