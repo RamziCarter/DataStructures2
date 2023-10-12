@@ -34,3 +34,9 @@ __What underlying data structures do you use for implementing a map?__
 
 Instead of a regular map we will use a HashMap
 
+- you can retrieve stored key/value pairs in constant tiem
+- a hashing function passes a key through an algoritm to produce a hash value
+ - the hash value is then used to create an index where to store the data
+
+ 
+
