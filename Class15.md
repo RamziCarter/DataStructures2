@@ -40,3 +40,9 @@ To guarentee O(log(n)) run time, we need to add some rules about the tree struct
 - in a balanced tree the hight of the laft and right subtrees can differ by no more than 1
 
 Balance Factor = height(left subtree) - height(right subtree)
+
+
+---
+> Rotations
+- If a tree becomes unbalanced, you need to "rotate" the tree
+- A height-balanced Binary Search Tree is called an AVL tree
